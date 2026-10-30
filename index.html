@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Barb Jones | The Blood Prophecy saga</title>
+<meta name="description" content="Dark fantasy, supernatural thriller and horror: the Blood Prophecy saga, the Dark Prophecy and Heaven and Hell series by Barb Jones.">
+<meta property="og:title" content="A homepage for Barb Jones, made by Sparsh Saini">
+<meta property="og:description" content="A homepage idea for Barb Jones, made by Sparsh Saini. Not the official site.">
+<meta property="og:image" content="https://sparshsainied-prog.github.io/barbjones/img/og.jpg">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%230d0607'/><circle cx='16' cy='16' r='7' fill='none' stroke='%23d6392b' stroke-width='2'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add('js')</script>
+<style>
+:root {
+  --night: #0d0607;
+  --deep: #1a0a0c;
+  --slate: #2a0e10;
+  --hi: #e58a62;
+  --accent: #d6392b;
+  --bone: #f6ece6;
+  --bone2: #c9b4ac;
+  --ink: #fff4ee;
+  --display: "Cinzel", "Trajan Pro", Georgia, serif;
+  --text: "Cormorant Garamond", Georgia, serif;
+  --gutter: clamp(1rem, 5vw, 4rem);
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--night); color: var(--bone); font-family: var(--text); font-size: 1.12rem; line-height: 1.6; overflow-x: hidden; }
+img { display: block; max-width: 100%; height: auto; }
+a { color: inherit; }
+.wrap { max-width: 70rem; margin: 0 auto; padding: 0 var(--gutter); }
+h1, h2 { font-family: var(--display); font-weight: 700; margin: 0; line-height: 1.04; letter-spacing: .04em; text-transform: uppercase; }
+p { margin: 0 0 1rem; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.btn { display: inline-block; padding: .7rem 1.3rem; border-radius: 3px; background: var(--accent); color: var(--ink); font-weight: 700; text-decoration: none; }
+.btn:hover, .btn:focus-visible { background: var(--bone); }
+.quiet { font-weight: 600; text-underline-offset: .25em; text-decoration-thickness: 1px; }
+.quiet:hover, .quiet:focus-visible { color: var(--accent); }
+.buy { display: flex; flex-wrap: wrap; gap: .8rem 1.4rem; align-items: center; }
+
+.top { position: absolute; z-index: 20; top: 0; left: 0; right: 0; }
+.made { margin: 0; padding: .45rem var(--gutter); background: var(--deep); color: var(--bone2); font-size: .92rem; line-height: 1.35; text-align: center; }
+.bar { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: .8rem var(--gutter); }
+.mark { font-family: var(--display); font-size: 1.5rem; text-decoration: none; color: var(--bone); }
+.bar nav { display: flex; gap: 1.4rem; font-weight: 600; }
+.bar nav a { text-decoration: none; }
+.bar nav a:hover, .bar nav a:focus-visible { color: var(--accent); }
+
+.hero { position: relative; height: 100svh; min-height: 40rem; }
+.js .hero { height: 260svh; }
+.stage { position: sticky; top: 0; height: 100svh; min-height: 40rem; overflow: hidden; background: var(--night); }
+.layer { position: absolute; inset: 0; transform-origin: 50% 50%; will-change: transform; }
+.layer picture, .layer img { width: 100%; height: 100%; object-fit: cover; }
+.shade { position: absolute; inset: 0; pointer-events: none; background: radial-gradient(ellipse 90% 80% at 50% 50%, rgba(5,8,14,.55), rgba(5,8,14,.9)); }
+.open { position: absolute; left: var(--gutter); right: var(--gutter); bottom: 10svh; max-width: 44rem; will-change: transform, opacity; }
+.open p { margin: 0; }
+.open .line { font-family: var(--display); font-size: clamp(2.4rem, 6vw, 5rem); line-height: 1; text-wrap: balance; color: var(--bone); text-shadow: 0 2px 24px rgba(0,0,0,.8); }
+.open .from { margin-top: .9rem; font-style: italic; color: var(--hi); font-size: 1.1rem; }
+.inside { position: absolute; inset: 7rem var(--gutter) 2.5rem; display: grid; grid-template-columns: auto minmax(0, 30rem); justify-content: center; align-items: center; gap: clamp(2rem, 5vw, 4.5rem); }
+.cover { height: min(64svh, 35rem); width: auto; aspect-ratio: 640 / 960; box-shadow: 0 1.6rem 3.4rem rgba(0,0,0,.7); will-change: transform, opacity; transform-origin: 50% 60%; }
+.copy { will-change: transform, opacity; }
+.js .cover, .js .copy { opacity: 0; }
+html:not(.js) .open { display: none; }
+.copy h1 { font-size: clamp(2.8rem, 5.6vw, 5rem); color: var(--bone); }
+.copy .tag { font-style: italic; font-size: clamp(1.2rem, 2vw, 1.5rem); margin: .8rem 0 .3rem; color: var(--hi); }
+.copy .meta { color: var(--bone2); font-size: 1.02rem; margin-bottom: 1.4rem; }
+
+.band { padding: clamp(4rem, 9vw, 7.5rem) 0; }
+h2 { font-size: clamp(2.2rem, 4.6vw, 3.8rem); margin-bottom: 1.4rem; color: var(--bone); text-wrap: balance; }
+.book { background: var(--deep); }
+.book.alt { background: var(--night); }
+.book .grid { display: grid; grid-template-columns: minmax(0, .7fr) minmax(0, 1.3fr); gap: clamp(2.5rem, 6vw, 6rem); align-items: start; }
+.book .grid.flip { grid-template-columns: minmax(0, 1.3fr) minmax(0, .7fr); }
+.book .grid.flip .cover-s { order: 2; }
+.book .cover-s { box-shadow: 0 1.5rem 3rem rgba(0,0,0,.6); position: sticky; top: 2rem; }
+.blurb { max-width: 38rem; }
+.series { color: var(--hi); font-style: italic; margin-bottom: .6rem; }
+.blurb .last { font-family: var(--display); font-size: clamp(1.4rem, 2.4vw, 1.9rem); line-height: 1.15; color: var(--accent); margin: 1.4rem 0 2rem; }
+.where { list-style: none; padding: 0; margin: 0; border-top: 1px solid rgba(255,255,255,.22); }
+.where li { border-bottom: 1px solid rgba(255,255,255,.22); }
+.where a, .where .plain { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; padding: .95rem 0; text-decoration: none; font-weight: 600; }
+.where a span, .where .plain span { color: var(--bone2); font-weight: 400; font-style: italic; text-align: right; }
+.where a:hover, .where a:focus-visible { color: var(--accent); }
+.special { background: var(--slate); }
+.find { background: var(--night); }
+.grid2 { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: clamp(2rem, 6vw, 6rem); align-items: start; }
+.lead-in { font-size: clamp(1.2rem, 2vw, 1.45rem); line-height: 1.45; color: var(--bone); }
+.about { background: var(--deep); }
+.about .grid { display: grid; grid-template-columns: minmax(0, 38rem); gap: clamp(2rem, 6vw, 5rem); align-items: center; }
+.about img { box-shadow: 0 1.2rem 2.6rem rgba(0,0,0,.45); }
+footer { padding: 2.2rem 0 2.6rem; background: var(--deep); color: var(--bone2); font-size: 1rem; }
+footer .wrap { display: flex; flex-wrap: wrap; gap: .8rem 2rem; justify-content: space-between; }
+footer p { margin: 0; }
+@media (max-width: 760px) {
+  body { font-size: 1.06rem; }
+  .bar nav { gap: 1rem; font-size: 1rem; }
+  .bar nav .wide { display: none; }
+  .open { bottom: 8svh; }
+  .inside { inset: 6.6rem 1.2rem 1.4rem; grid-template-columns: minmax(0, 1fr); grid-template-rows: auto auto; justify-items: center; align-content: center; gap: 1.2rem; text-align: center; }
+  .cover { height: min(38svh, 20rem); }
+  .copy h1 { font-size: 2.5rem; }
+  .copy .meta { display: none; }
+  .copy .buy { justify-content: center; }
+  .book .grid, .book .grid.flip, .grid2, .about .grid { grid-template-columns: minmax(0, 1fr); }
+  .book .grid.flip .cover-s { order: 0; }
+  .book .cover-s { position: static; max-width: 15rem; }
+  .about img { max-width: 13rem; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+</style>
+</head>
+<body>
+<div class="top">
+  <p class="made">A homepage idea made by Sparsh Saini for Barb Jones. Not their official site.</p>
+  <div class="bar">
+    <a class="mark" href="#">Barb Jones</a>
+    <nav aria-label="Main"><a href="#fate">Fate of an Angel</a><a href="#rise">The saga</a><a href="#events">Meet me</a><a href="#find">Find me</a></nav>
+  </div>
+</div>
+
+<header class="hero" id="top">
+  <div class="stage">
+    <div class="layer bg"><picture><source media="(max-width: 760px)" srcset="img/sky-m.jpg"><img src="img/sky.jpg" alt="" fetchpriority="high"></picture></div>
+    <div class="shade"></div>
+    <div class="open">
+      <p class="line">Something has shifted, and this time it is not something that can be undone.</p>
+      <p class="from">The Blood Prophecy saga, by Barb Jones</p>
+    </div>
+    <div class="inside">
+      <img class="cover" src="img/cover-fate.jpg" alt="Fate of an Angel by Barb Jones, The Dark Prophecy series book two" width="640" height="960">
+      <div class="copy">
+        <h1>Fate of an Angel</h1>
+        <p class="tag">The Dark Prophecy series, book two.</p>
+        <p class="meta">Zaraquel is gone, her light sealed away. Marcus will go into hell itself to bring her back.</p>
+        <div class="buy"><a class="btn" href="#fate">Find a copy</a><a class="quiet" href="#rise">Start at the beginning</a></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="band book " id="fate">
+  <div class="wrap grid ">
+    <img class="cover-s" src="img/cover-fate.jpg" alt="Fate of an Angel cover" width="640" height="960" loading="lazy">
+    <div class="blurb">
+      <p class="series">The Dark Prophecy, book two</p><h2>Fate of an Angel</h2>
+      <p>Zaraquel was supposed to be the balance between bloodlines, the one thing that kept everything from breaking apart. Now she is gone, her light taken and sealed somewhere no one can reach, and whatever was holding the peace together is starting to give way. Marcus does not care what it costs anymore. He will go into hell itself if that is what it takes to bring her back.</p><p>In Hawai‘i, the mana is shifting, pulling something old to the surface that was never meant to return. As things begin to fracture, alliances stop meaning what they used to.</p><p class="last">Power comes with a cost, loyalty is tested, and some choices cannot be taken back.</p>
+      <ul class="where"><li><a href="https://thebookdragon.co.uk/product/fate-of-an-angel-the-dark-prophecy-series-book-2-by-author-barb-jones/">The Book Dragon <span>independent bookshop</span></a></li></ul>
+    </div>
+  </div>
+</section>
+<section class="band book alt" id="rise">
+  <div class="wrap grid flip">
+    <img class="cover-s" src="img/cover-rise.jpg" alt="Rise of the Hunter cover" width="600" height="899" loading="lazy">
+    <div class="blurb">
+      <p class="series">The Dark Prophecy, book one</p><h2>Rise of the Hunter</h2>
+      <p>Evil does not die. It seeks revenge. The Tall Dark Man is back with a vengeance against the queen he could not break, and the prophecy that began three thousand years ago is far from finished.</p><p class="last">Start with Queen’s Destiny to see where the prophecy begins.</p>
+      <ul class="where"><li><a href="https://www.thebookdragon.co.uk/product/rise-of-the-hunter-the-dark-prophecy-series-by-author-barb-jones/">The Book Dragon <span>independent bookshop</span></a></li><li><a href="https://www.amazon.com/Rise-Hunter-Barb-Jones/dp/B0C4WVN4PS">Amazon <span>paperback and Kindle</span></a></li><li><a href="https://www.thebookdragon.co.uk/product/blood-prophecy-one-queens-destiny/">Queen’s Destiny <span>The Blood Prophecy, book one</span></a></li></ul>
+    </div>
+  </div>
+</section>
+<section class="band book " id="asmodeus">
+  <div class="wrap grid ">
+    <img class="cover-s" src="img/cover-soa.jpg" alt="Son of Asmodeus cover" width="600" height="848" loading="lazy">
+    <div class="blurb">
+      <p class="series">Heaven and Hell, book one</p><h2>Son of Asmodeus</h2>
+      <p>As the son of Asmodeus, Sully is a hunter feared by both demons and angels. His world was not the same once he walked into a bar and offered to help Mick, a gothic bartender.</p><p class="last">Next: Hell Hounds, book two.</p>
+      <ul class="where"><li><a href="https://www.thebookdragon.co.uk/product/son-of-asmodeus-by-author-barb-jones/">The Book Dragon <span>independent bookshop</span></a></li><li><a href="https://www.amazon.com/Asmodeus-Heaven-Hell-Barb-Jones/dp/B0BMSKBPQF">Amazon <span>paperback and Kindle</span></a></li></ul>
+    </div>
+  </div>
+</section>
+<section class="band special" id="events">
+  <div class="wrap grid2"><div><h2>Meet me at a table</h2><p class="lead-in">Signed paperbacks and eBooks direct from me, and a few conventions through Florida.</p></div><ul class="where"><li><span class="plain">The Reading Cellar <span>Sarasota, FL, 24 September</span></span></li><li><span class="plain">Scaradise <span>Tampa, FL, 2 to 4 October</span></span></li><li><span class="plain">Ink &amp; Echoes Convention <span>Eustis, FL, 23 to 25 April 2027</span></span></li><li><span class="plain">Florida ParaCon <span>Pasco County Fairgrounds, 24 July</span></span></li><li><a href="https://thebloodprophecy.com/where-to-buy-my-books/">Buy direct <span>signed paperback or eBook</span></a></li></ul></div>
+</section>
+<section class="band about" id="about">
+  <div class="wrap grid">
+    
+    <div><h2>About Barb</h2><p>Barb Jones is the award-winning author of The Blood Prophecy saga and the Heaven and Hell series. Her novels blend dark fantasy, supernatural horror and thriller elements, where angels, demons, ancient bloodlines and prophecy collide.</p><p>“I always keep to my roots when I write and I listen to the key people in my life: my family, friends, and fans.”</p></div>
+  </div>
+</section>
+
+<section class="band find" id="find">
+  <div class="wrap grid2">
+    <div><h2>Where to find me</h2><p class="lead-in">In UK shops through The Book Dragon in Stockton-on-Tees, in Florida through Small Town Stories, and direct from me.</p></div>
+    <ul class="where"><li><a href="https://www.instagram.com/thebloodprophecy/">Instagram <span>@thebloodprophecy</span></a></li><li><a href="https://www.facebook.com/BloodProphecyBooks">Facebook <span>Blood Prophecy Books</span></a></li><li><a href="https://thebookdragon.co.uk/">The Book Dragon <span>UK stockist</span></a></li><li><a href="https://thebloodprophecy.com/">Newsletter <span>thrilling news and updates</span></a></li><li><a href="https://www.youtube.com/watch?v=48P6VADz0G8">Trailers <span>YouTube</span></a></li></ul>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>A mockup made by Sparsh Saini for Barb Jones. Not affiliated, not live.</p>
+    <p>Covers and words are the author's own.</p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var hero = document.querySelector('.hero'), bg = document.querySelector('.bg'), open = document.querySelector('.open'),
+      cover = document.querySelector('.cover'), copy = document.querySelector('.copy');
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function cl(x) { return x < 0 ? 0 : x > 1 ? 1 : x; }
+  function ease(x) { return 1 - Math.pow(1 - x, 3); }
+  function draw(p) {
+    bg.style.transform = 'scale(' + (1 + .14 * p).toFixed(4) + ')';
+    var o = cl(1 - p / .32);
+    open.style.opacity = o.toFixed(3); open.style.transform = 'translate3d(0,' + (-p * 90).toFixed(1) + 'px,0)';
+    var k = ease(cl((p - .08) / .55));
+    cover.style.opacity = cl((p - .04) / .2).toFixed(3);
+    cover.style.transform = 'translate3d(0,' + ((1 - k) * 60).toFixed(1) + 'px,0) scale(' + (.74 + .26 * k).toFixed(4) + ')';
+    var q = ease(cl((p - .5) / .3));
+    copy.style.opacity = q.toFixed(3); copy.style.transform = 'translate3d(0,' + ((1 - q) * 28).toFixed(1) + 'px,0)';
+  }
+  if (reduce) { document.documentElement.classList.remove('js'); hero.style.height = 'auto'; open.style.display = 'none'; return; }
+  var ticking = false;
+  function onScroll() {
+    if (ticking) return; ticking = true;
+    requestAnimationFrame(function () {
+      var r = hero.getBoundingClientRect(), span = hero.offsetHeight - window.innerHeight;
+      draw(cl(-r.top / span)); ticking = false;
+    });
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', onScroll);
+  draw(cl(-hero.getBoundingClientRect().top / (hero.offsetHeight - window.innerHeight)));
+})();
+</script>
+</body>
+</html>
